@@ -1,16 +1,11 @@
 from weapon import Weapon
-from dinosaur import Dinosaur
 
 class Robot:
-    def __init__(self):
-        self.name = ''
+    def __init__(self, name):
+        self.name = name
         self.health = 100
         self.active_weapon = Weapon
-
-    def __init__(self,name):
-        self.name = name
-        name = input('Name your robot: ')
-        print ({name}' is your robot.')
+        print (f'{name} is your robots name and has a weapon of {Weapon(name)}.')
         
 
     def attack(self,dinosaur):
