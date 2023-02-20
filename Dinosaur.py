@@ -6,8 +6,8 @@ class Dinosaur:
         self.health = 100
         self.attack_power = 25
         
-        print ('Shelbasauraus headbutts Rebelbot for a damage of 25!')
 
     def attack(self, robot):
-        robot = -self.attack_power
-        print(robot)
+        robot.health -= self.attack_power
+        print ('Shelbasauraus headbutts Rebelbot for a damage of 25!')
+        
