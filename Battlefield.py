@@ -35,9 +35,9 @@ class Battlefield:
 
     def display_winner(self):
         if self.dinosaur.health == 0:
-            print ("Congratualtions! Robots have slayed the Dinosaurs into extinction!")
+            print ("Congratualtions! Dinosaurs tore the robots apart!")
         elif self.robot.health == 0:
-            print ("Congratulations! Dinosaurs tore the robots apart!")
+            print ("Congratulations! Robots have slayed the Dinosaurs into extinction!")
         
 
     

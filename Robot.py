@@ -1,10 +1,11 @@
+import random
 from weapon import Weapon
 
 class Robot:
     def __init__(self):
         self.name = 'Rebelbot'
         self.health = 100
-        self.active_weapon = Weapon('ax', 30)
+        self.active_weapon = random.choice(Weapon([self.weapon.name]))
         
         
 
