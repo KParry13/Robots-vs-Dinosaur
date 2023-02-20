@@ -1,11 +1,13 @@
 
 class Dinosaur:
 
-    def __init__(self, name, attack_power):
-        self.name = name
+    def __init__(self):
+        self.name = 'Shelbasauraus'
         self.health = 100
-        self.attack_power = attack_power
-        print (f'Your dinosaurs name is {name} and has the attack power of {attack_power}')
+        self.attack_power = 25
+        
+        print ('Shelbasauraus headbutts Rebelbot for a damage of 25!')
 
     def attack(self, robot):
-        pass
+        robot = -self.attack_power
+        print(robot)
